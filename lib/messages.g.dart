@@ -155,6 +155,7 @@ CheckoutSession _$CheckoutSessionFromJson(Map<String, dynamic> json) =>
       clientReferenceId: json['client_reference_id'] as String?,
       customer: json['customer'] as String?,
       paymentIntent: json['payment_intent'] as String?,
+      url: json['url'] as String?,
     );
 
 Map<String, dynamic> _$CheckoutSessionToJson(CheckoutSession instance) {
